@@ -2,19 +2,6 @@ $(document).ready(function(){
     //current date
     var date = new Date();
     $("#date").html(date);
-
-// create function that displays current time
-// function times() {
-//     var time = new Date();
-//     var second = time.getSeconds();
-//     var minute = time.getMinutes();
-//     var hour = time.getHours();
-
-//     $(".rightNow").html(hour + ":" + minute + ":" + second);
-// }
-
-// setInterval(times, 1000);
-
 //---------------------------------------------------------------------------------------------------------
 function colorTime() {
     $(".event").each(function (el, element) {
